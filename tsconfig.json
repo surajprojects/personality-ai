@@ -1,4 +1,3 @@
 {
-  "extends": "@workspace/typescript-config/base.json"
+  "extends": "@personality-ai/typescript-config/base.json"
 }
-

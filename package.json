@@ -1,5 +1,5 @@
 {
-  "name": "Personality-AI",
+  "name": "personality-ai",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "typecheck": "turbo typecheck"
   },
   "devDependencies": {
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@personality-ai/eslint-config": "workspace:*",
+    "@personality-ai/typescript-config": "workspace:*",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "turbo": "^2.8.17",

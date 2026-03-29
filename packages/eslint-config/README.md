@@ -1,3 +1,3 @@
-# `@workspace/eslint-config`
+# `@personality-ai/eslint-config`
 
 Shared eslint configuration for the workspace.

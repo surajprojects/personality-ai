@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "check": "pnpm run format && pnpm run lint",
+    "build": "tsc -b",
+    "dev": "pnpm run build && pnpm run start",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.47.0",
+    "@langchain/community": "^1.1.24",
+    "@langchain/core": "^1.1.35",
+    "@langchain/google-genai": "^2.1.26",
+    "@langchain/ollama": "^1.2.6",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "faiss-node": "^0.5.1",
+    "openai": "^4.62.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.1.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
