@@ -21,6 +21,8 @@
     "@langchain/core": "^1.1.35",
     "@langchain/google-genai": "^2.1.26",
     "@langchain/ollama": "^1.2.6",
+    "@langchain/qdrant": "^1.0.1",
+    "@qdrant/js-client-rest": "^1.17.0",
     "cors": "^2.8.6",
     "dotenv": "^16.6.1",
     "express": "^5.2.1",

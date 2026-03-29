@@ -3,13 +3,13 @@ import { GoogleGenAI } from "@google/genai";
 
 export class GeminiEmbeddings extends Embeddings {
   private ai = new GoogleGenAI({
-    apiKey: process.env.GEMINI_API_KEY ?? "",
+    apiKey: process.env.GEMINI_API_KEY!,
   });
 
   constructor() {
     super({});
     this.ai = new GoogleGenAI({
-      apiKey: process.env.GEMINI_API_KEY ?? "",
+      apiKey: process.env.GEMINI_API_KEY!,
     });
   }
 
